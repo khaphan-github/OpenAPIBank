@@ -1,4 +1,4 @@
-package com.openbanking.api.interfaces.restfull.shared;
+package com.openbanking.api.application.restfull.shared;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

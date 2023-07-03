@@ -1,15 +1,13 @@
-package com.openbanking.api.interfaces.restfull.controller;
+package com.openbanking.api.application.restfull.controller;
 
-import com.openbanking.api.interfaces.restfull.shared.ResponseBase;
-import com.openbanking.api.interfaces.restfull.shared.Variable;
+import com.openbanking.api.application.restfull.shared.ResponseBase;
+import com.openbanking.api.application.restfull.shared.Variable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- */
 @RestController
 @RequestMapping((Variable.API_GLOBAL_PREFIX))
 public class OpenBankingController {

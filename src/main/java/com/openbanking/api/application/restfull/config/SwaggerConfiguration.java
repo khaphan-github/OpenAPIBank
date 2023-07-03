@@ -1,4 +1,4 @@
-package com.openbanking.api.interfaces.restfull.config;
+package com.openbanking.api.application.restfull.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
