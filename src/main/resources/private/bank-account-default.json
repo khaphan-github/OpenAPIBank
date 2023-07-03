@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "accountNumber": "123456789",
+    "balance": 1000000.00
+  },
+  {
+    "id": 2,
+    "accountNumber": "987654321",
+    "balance": 2000000.00
+  },
+  {
+    "id": 3,
+    "accountNumber": "555555555",
+    "balance": 500000.00
+  },
+  {
+    "id": 4,
+    "accountNumber": "777777777",
+    "balance": 1500000.00
+  }
+]

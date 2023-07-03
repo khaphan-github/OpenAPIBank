@@ -10,7 +10,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableJpaRepositories
 @EnableAutoConfiguration
 public class ApiApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(ApiApplication.class, args);
 	}

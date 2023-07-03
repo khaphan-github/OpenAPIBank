@@ -7,7 +7,6 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.UUID;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -17,6 +16,7 @@ public class Transaction {
     private Long id;
     private String accountId;
     private BigDecimal amount;
-    private Transaction type;
+    private String type;
+    private String transferContent;
     private LocalDateTime transactionDateTime = LocalDateTime.now();
 }

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "accountId": "1",
+    "amount": 100.00,
+    "type": "TRANSFER",
+    "transferContent": "Phan Hoang Kha chuyen Khoan"
+  },
+  {
+    "id": 2,
+    "accountId": "2",
+    "amount": 50.00,
+    "type": "TRANSFER",
+    "transferContent": "Phan Hoang Kha chuyen Khoan"
+  },
+  {
+    "id": 3,
+    "accountId": "1",
+    "amount": -200.00,
+    "type": "TRANSFER",
+    "transferContent": "Phan Hoang Kha chuyen Khoan"
+  },
+  {
+    "id": 4,
+    "accountId": "2",
+    "amount": 75.00,
+    "type": "TRANSFER",
+    "transferContent": "Phan Hoang Kha chuyen Khoan"
+  },
+  {
+    "id": 5,
+    "accountId": "1",
+    "amount": 300.00,
+    "type": "TRANSFER",
+    "transferContent": "Phan Hoang Kha chuyen Khoan"
+  },
+  {
+    "id": 6,
+    "accountId": "2",
+    "amount": 150.00,
+    "type": "TRANSFER",
+    "transferContent": "Phan Hoang Kha chuyen Khoan"
+  }
+]

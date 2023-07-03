@@ -1,4 +1,4 @@
-package com.openbanking.api.infrastructure.persistence.repository;
+package com.openbanking.api.infrastructure.persistence.repository.postgres;
 
 import com.openbanking.api.infrastructure.persistence.entities.TransactionEntity;
 import org.springframework.data.jpa.repository.JpaRepository;

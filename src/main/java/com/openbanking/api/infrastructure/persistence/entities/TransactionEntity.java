@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -27,6 +26,7 @@ public class TransactionEntity {
     private TransactionType type;
 
     private LocalDateTime transactionDateTime = LocalDateTime.now();
+    private String transferContent;
 
     @ManyToOne
     private BankAccountEntity bankAccountEntity;
