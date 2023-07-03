@@ -1,4 +1,4 @@
-package com.openbanking.API;
+package com.openbanking.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

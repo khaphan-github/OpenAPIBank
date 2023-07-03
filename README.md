@@ -9,6 +9,15 @@ https://openbanking.atlassian.net/wiki/spaces/DZ/pages/1150124033/Directory+2.0+
     + **Header**:
         - Authorization: 'eyJhbGciOiJIUzI1...Qssw5c'
     + **desc**: Get public key to encrypt transaction encrypt method using ECC
+    + **Response**:
+   `   {
+      "id": "6616caf4-2c53-4408-8470-9221d75b928b",
+      "timestamp": "2023-07-03T09:23:56.424+00:00",
+      "status": 200,
+      "message": "Success",
+      "data": "YOUR_PUBLIC_KEY"
+      } `
+
 
 
 - **POST**: **/api/v1/open-banking/auth**

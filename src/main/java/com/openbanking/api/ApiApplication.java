@@ -1,9 +1,12 @@
-package com.openbanking.API;
+package com.openbanking.api;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
+@EnableAutoConfiguration
 public class ApiApplication {
 
 	public static void main(String[] args) {
